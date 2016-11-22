@@ -1,0 +1,35 @@
+{
+  "name": "aklcss",
+  "version": "0.0.1",
+  "description": "Website for Auckland CSS",
+  "main": "index.js",
+  "scripts": {
+    "http": "cd dist && python -m SimpleHTTPServer",
+    "build:css": "rework-npm src/css/main.css | cleancss -o dist/css/main.css",
+    "build:copy": "cp src/*.html dist/",
+    "build": "npm run build:css && npm run build:copy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aklcss/www.git"
+  },
+  "keywords": [
+    "website",
+    "auckland",
+    "css"
+  ],
+  "author": "Navishkar Rao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aklcss/www/issues"
+  },
+  "homepage": "https://github.com/aklcss/www#readme",
+  "devDependencies": {
+    "clean-css": "^3.4.21",
+    "rework-npm": "^1.0.0",
+    "rework-npm-cli": "^0.1.1"
+  },
+  "dependencies": {
+    "tachyons": "^4.5.5"
+  }
+}
