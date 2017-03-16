@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "http": "cd dist && python -m SimpleHTTPServer",
+    "build:dir": "mkdir -p dist/css",
     "build:css": "rework-npm src/css/main.css | cleancss -o dist/css/main.css",
     "build:copy": "cp src/*.html dist/",
-    "build": "npm run build:css && npm run build:copy",
+    "build": "npm run build:dir && npm run build:css && npm run build:copy",
     "publish": "cd dist && rm -rf .git && git init && git add . && git commit -m 'deploy' && git push --force --quiet 'git@github.com:aklcss/www.git' master:gh-pages"
   },
   "repository": {
