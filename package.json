@@ -4,7 +4,7 @@
   "description": "Website for Auckland CSS",
   "main": "index.js",
   "scripts": {
-    "http": "cd dist && python -m SimpleHTTPServer",
+    "http": "npm run build && cd dist && python -m SimpleHTTPServer",
     "build:dir": "mkdir -p dist/css",
     "build:css": "rework-npm src/css/main.css | cleancss -o dist/css/main.css",
     "build:copy": "cp src/* dist/ 2>/dev/null || :",
