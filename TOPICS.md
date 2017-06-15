@@ -22,6 +22,7 @@
 ## Fun stuff
 
 * [ ] Happy hour - drinks at a local bar
+* [ ] CSS trivia night 
 
 ## Recurring
 
