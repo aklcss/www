@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "http": "cd dist && python -m SimpleHTTPServer",
-    "build:dir": "mkdir -p dist/css",
-    "build:css": "rework-npm src/css/main.css | cleancss -o dist/css/main.css",
-    "build:copy": "cp src/* dist/ 2>/dev/null || :",
-    "build": "npm run build:dir && npm run build:css && npm run build:copy",
+    "build": "cp src/* dist/ 2>/dev/null || :",
     "publish": "cd dist && rm -rf .git && git init && git add . && git commit -m 'deploy' && git push --force --quiet 'git@github.com:aklcss/www.git' master:gh-pages"
   },
   "repository": {
@@ -26,12 +23,6 @@
     "url": "https://github.com/aklcss/www/issues"
   },
   "homepage": "https://github.com/aklcss/www#readme",
-  "devDependencies": {
-    "clean-css": "^3.4.21",
-    "rework-npm": "^1.0.0",
-    "rework-npm-cli": "^0.1.1"
-  },
-  "dependencies": {
-    "tachyons": "^4.5.5"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
