@@ -26,12 +26,6 @@
     "url": "https://github.com/aklcss/www/issues"
   },
   "homepage": "https://github.com/aklcss/www#readme",
-  "devDependencies": {
-    "clean-css": "^3.4.21",
-    "rework-npm": "^1.0.0",
-    "rework-npm-cli": "^0.1.1"
-  },
-  "dependencies": {
-    "tachyons": "^4.5.5"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
