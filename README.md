@@ -1,5 +1,6 @@
 # Home of Auckland CSS
-## Your friendly neighborhood meetup (=^･ｪ･^=))ﾉ彡☆
+## Your friendly neighborhood meetup 
+### (=^･ｪ･^=))ﾉ彡☆
 
 Frontend Development has gone bonkers. And the things people are doing in the browser these days without reliance on backend systems is quite frankly ridiculous. This group is for people who want to learn and share the cool things they are doing regarding HTML & CSS (maybe a touch of JS for those old browsers that cant keep up).
 
