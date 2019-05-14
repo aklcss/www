@@ -10,7 +10,7 @@ Come and get inspired, learn some tricks & share some of your own, and meet othe
 
 ## Interested in presenting?
 
-We're really interested in topics related to UI/UX design, accessibility, JavaScript and even CSS. But we aren't just limited to that. If you're interested in talking about your career journey, tips on freelancing or how to handle stressful work moments, we'd love to hear from you. 
+We're really interested in topics related to UI/UX design, accessibility, JavaScript and even CSS. But we aren't just limited to that. If you want to talk about your career journey, tips on freelancing or how to handle stressful work moments, we'd love to hear from you.
 
 [Just fill out this form](https://nav36.typeform.com/to/HAnCQQ) and we'll contact you about upcoming slots for one of our meetups.
 
@@ -19,6 +19,8 @@ We're really interested in topics related to UI/UX design, accessibility, JavaSc
 Join the conversation on [Slack](https://join.slack.com/t/aucklandcss/shared_invite/enQtNTI5MTMzODE5NDkxLTM3MzRmNGYyYzQ3ZTE1OTZjZTc5YjA5ZDIwM2YxYmRkYzRlYjM0ZWNjYzRlZTRlY2E0YWIyZmVhMzliMTM2YWY) where we share links and chat about all things in CSS and in-between.
 
 [Meetup.com](https://www.meetup.com/auckland-css/) is our portal to all things event related.
+
+We don't use the Twitter much but others do so use [#aklcss](https://twitter.com/hashtag/aklcss?src=hash) to stay in the loop.
 
 
 
