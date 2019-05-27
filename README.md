@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/04e0d698-8bf4-465e-8e56-b166efc89300/deploy-status)](https://app.netlify.com/sites/aklcss/deploys)
+
 # Home of Auckland CSS
 ## Your friendly neighborhood meetup 
 ### (=^･ｪ･^=))ﾉ彡☆
