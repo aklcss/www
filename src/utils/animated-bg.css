@@ -1,0 +1,38 @@
+/**
+  * Based on Captain Anon https://codepen.io/anon/pen/byKVGJ
+  */
+
+.section.bg-sunburst {
+    background-size: 100%;
+    background-image: linear-gradient(#F9D423, #FF4E50);
+    position: relative;
+    z-index: 100;
+}
+
+.section.bg-sunburst::before {
+    border-radius: inherit;
+    background-image: linear-gradient(#FF4E50, #F9D423);
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -100;
+    transition: opacity 2.75s ease-in-out;
+}
+
+.section.bg-sunburst::before {
+    animation: opacityChange 10s;
+}
+
+@keyframes opacityChange {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
