@@ -1,28 +1,53 @@
 {
   "name": "aklcss",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Website for Auckland CSS",
   "main": "index.js",
-  "scripts": {
-    "http": "cd dist && python -m SimpleHTTPServer",
-    "build": "cp src/* dist/ 2>/dev/null || :",
-    "publish": "cd dist && rm -rf .git && git init && git add . && git commit -m 'deploy' && git push --force --quiet 'git@github.com:aklcss/www.git' master:gh-pages"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/aklcss/www.git"
   },
   "keywords": [
-    "website",
     "auckland",
     "css"
   ],
-  "author": "Navishkar Rao",
+  "author": "Navishkar Rao, Nathan SD <n.stewart.devereux@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aklcss/www/issues"
   },
   "homepage": "https://github.com/aklcss/www#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "@types/react": "^16.8.18",
+    "gatsby": "^2.6.0",
+    "gatsby-image": "^2.1.0",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-offline": "^2.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.37",
+    "gatsby-plugin-typography": "^2.2.13",
+    "gatsby-source-filesystem": "^2.0.37",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-lincoln": "^0.16.19"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.17.1"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  }
 }

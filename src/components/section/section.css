@@ -1,0 +1,80 @@
+@import "../../utils/animated-bg.css";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow: hidden;
+    height: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+        height: 100vh;
+    }
+}
+
+.wrapper {
+    display: flex;
+    overflow: auto;
+    flex: none;
+    width: 100vw;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+        height: 100vh;
+    }
+
+    .y-scroll-snap {
+        scroll-snap-type: y mandatory;
+    }
+}
+
+.wrapper > .section {
+    text-align: center;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.section main {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;
+}
+
+/* ----- Backgrounds */
+.section.bg-purple {
+    background: linear-gradient(60deg, #a60af3 40%, rgba(0, 0, 0, 0) 20%),
+    radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+}
+
+.bg-purple h1,
+.bg-purple h2,
+.bg-purple h3,
+.bg-purple h4,
+.bg-purple h5,
+.bg-purple p,
+.bg-purple blockquote {
+    color: white;
+}
+
+/*
+Thanks to  Jim Warwick
+https://codepen.io/scrimothy/pen/Hqibr
+*/
+
+.bg-dots {
+    background-color: #f4f4f4;
+    background-image: linear-gradient(rgba(222, 222, 222, 0.5) 1px, transparent 1px), linear-gradient(#dedede 1px, transparent 1px), linear-gradient(90deg, rgba(222, 222, 222, 0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(222, 222, 222, 0.7) 1px, transparent 1px), linear-gradient(transparent 3px, #f4f4f4 3px, #f4f4f4 58px, transparent 58px), linear-gradient(90deg, rgba(222, 222, 222, 0.7) 3px, transparent 3px, transparent 58px, rgba(222, 222, 222, 0.7) 58px);
+    background-size: 15px 15px, 60px 60px, 15px 15px, 60px 60px, 60px 60px, 60px 60px;
+}
