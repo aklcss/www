@@ -1,0 +1,119 @@
+* {
+    backface-visibility: hidden;
+}
+
+.first {
+    color: navajowhite;
+    mix-blend-mode: color-burn;
+    position: absolute;
+    left: 0;
+    z-index: 20;
+}
+
+.second {
+    color: palevioletred;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+}
+
+.third {
+    color: darkturquoise;
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    left: 0;
+    z-index: 40;
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    /* You need to define an explicit height! */
+    height: 100vh;
+    perspective: 1000px;
+}
+
+.inner {
+    width: 320px;
+    height: 120px;
+    transition: transform 0.6s;
+}
+
+.splash h1 {
+    display: inline-block;
+    border: 1px solid rgba(204, 204, 204, 0.57);
+    font-family: Verdana, serif;
+    font-size: 3rem;
+    opacity: 0.5;
+    margin: 0;
+    width: 320px;
+    transition: all;
+}
+
+@media  screen and (min-width: 600px) {
+    .inner {
+        width: 560px;
+
+    }
+    .splash h1 {
+        width: 560px;
+        font-size: 6rem;
+    }
+}
+
+.splash .animation {
+    animation-name: rotations;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+.animation .first {
+    animation-name: firstMovement;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.animation .second {
+    animation-name: secondMovement;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rotations {
+    0%, 100% {
+        transform: rotateX(-5deg) rotateZ(-4deg);
+    }
+    25%, 75% {
+        transform: rotateX(0deg) rotateZ(4deg);
+    }
+    50% {
+        transform: rotateX(5deg) rotateZ(-4deg);
+    }
+}
+
+@keyframes secondMovement {
+    50% {
+        transform: translate(3px, -4px);
+    }
+    100% {
+        transform: translate(30px, -10px);
+    }
+}
+
+@keyframes firstMovement {
+    50% {
+        transform: translate(-4px, 3px);
+    }
+    100% {
+        transform: translate(-10px, 30px);
+    }
+}
