@@ -1,7 +1,7 @@
 import Typography from "typography";
 import lincolnTheme from "typography-theme-lincoln";
 
-lincolnTheme.baseFontSize = "19px";
+lincolnTheme.baseFontSize = "22";
 lincolnTheme.baseLineHeight = "1.58";
 lincolnTheme.scaleRatio = "1.6";
 lincolnTheme.headerFontFamily = [

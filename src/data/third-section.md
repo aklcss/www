@@ -11,4 +11,4 @@ Join the conversation on [Slack](https://join.slack.com/t/aucklandcss/shared_inv
 
 We don't use the Twitter much but others do so use [#aklcss](https://twitter.com/hashtag/aklcss?src=hash) to stay in the loop.
 
-This site is a work in progress, currently made with [Gatsby.js](http://gatsbyjs.org/) repo open for [PR's here](https://github.com/aklcss/www)
+This site is a work in progress, currently made with [Gatsby.js](http://gatsbyjs.org/).<br /> Repo open for [PR's here](https://github.com/aklcss/www)

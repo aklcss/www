@@ -53,15 +53,20 @@
     transition: all;
 }
 
-@media  screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .inner {
-        width: 560px;
+        width: 610px;
 
     }
+
     .splash h1 {
-        width: 560px;
+        width: 610px;
         font-size: 6rem;
     }
+}
+
+.section.splash {
+    background-color: #222222;
 }
 
 .splash .animation {
