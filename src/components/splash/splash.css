@@ -55,12 +55,12 @@
 
 @media screen and (min-width: 600px) {
     .inner {
-        width: 610px;
+        width: 650px;
 
     }
 
     .splash h1 {
-        width: 610px;
+        width: 650px;
         font-size: 6rem;
     }
 }

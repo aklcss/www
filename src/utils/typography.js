@@ -22,6 +22,9 @@ lincolnTheme.googleFonts = [
   },
 ];
   lincolnTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
+    'h1,h2': {
+      fontWeight: 900,
+    },
     "a": {
       textShadow: 0
     }
