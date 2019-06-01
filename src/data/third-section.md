@@ -3,7 +3,7 @@ title: "Connect"
 order: 3
 theme: "bg-nighttime"
 ---
-## 🔌 Connect
+## 🔌 CONNECT
 
 Join the conversation on [Slack](https://join.slack.com/t/aucklandcss/shared_invite/enQtNTI5MTMzODE5NDkxLTM3MzRmNGYyYzQ3ZTE1OTZjZTc5YjA5ZDIwM2YxYmRkYzRlYjM0ZWNjYzRlZTRlY2E0YWIyZmVhMzliMTM2YWY) where we share links and chat about all things in CSS and in-between.
 

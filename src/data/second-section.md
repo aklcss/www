@@ -4,7 +4,7 @@ order: 2
 theme: "bg-dots"
 ---
 
-## 📝 Interested in presenting?
+## 📝 INTERESTED IN PRESENTING?
 
 We're really interested in topics related to UI/UX design, Accessibility, JavaScript and even CSS. 
 But we aren't just limited to that. If you want to talk about your career journey, tips on freelancing or how to handle stressful work moments, we'd love to hear from you.
