@@ -1,9 +1,9 @@
 ---
 title: "Connect"
 order: 3
-theme: "bg-sunburst"
+theme: "bg-nighttime"
 ---
-## 🔌 Connect
+## 🔌 CONNECT
 
 Join the conversation on [Slack](https://join.slack.com/t/aucklandcss/shared_invite/enQtNTI5MTMzODE5NDkxLTM3MzRmNGYyYzQ3ZTE1OTZjZTc5YjA5ZDIwM2YxYmRkYzRlYjM0ZWNjYzRlZTRlY2E0YWIyZmVhMzliMTM2YWY) where we share links and chat about all things in CSS and in-between.
 
@@ -11,4 +11,4 @@ Join the conversation on [Slack](https://join.slack.com/t/aucklandcss/shared_inv
 
 We don't use the Twitter much but others do so use [#aklcss](https://twitter.com/hashtag/aklcss?src=hash) to stay in the loop.
 
-This site is a work in progress, currently made with [Gatsby.js](http://gatsbyjs.org/) repo open for [PR's here](https://github.com/aklcss/www)
+This site is a work in progress, currently made with [Gatsby.js](http://gatsbyjs.org/).<br /> Repo open for PR's [here](https://github.com/aklcss/www)

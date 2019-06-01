@@ -45,7 +45,7 @@
 .splash h1 {
     display: inline-block;
     border: 1px solid rgba(204, 204, 204, 0.57);
-    font-family: Verdana, serif;
+    font-family: 'Fira Sans', serif;
     font-size: 3rem;
     opacity: 0.5;
     margin: 0;
@@ -53,15 +53,19 @@
     transition: all;
 }
 
-@media  screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .inner {
-        width: 560px;
-
+        width: 650px;
     }
+
     .splash h1 {
-        width: 560px;
+        width: 650px;
         font-size: 6rem;
     }
+}
+
+.section.splash {
+    background-color: #222222;
 }
 
 .splash .animation {
