@@ -45,7 +45,7 @@
 .splash h1 {
     display: inline-block;
     border: 1px solid rgba(204, 204, 204, 0.57);
-    font-family: Verdana, serif;
+    font-family: 'Fira Sans', serif;
     font-size: 3rem;
     opacity: 0.5;
     margin: 0;
