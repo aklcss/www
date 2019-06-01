@@ -67,6 +67,24 @@ body {
 .bg-purple blockquote {
     color: white;
 }
+.bg-nighttime h1,
+.bg-nighttime h2,
+.bg-nighttime h3,
+.bg-nighttime h4,
+.bg-nighttime h5,
+.bg-nighttime p,
+/*.bg-nighttime a,*/
+.bg-nighttime blockquote {
+    color: white;
+}
+.bg-nighttime a {
+
+    color: #2c9633;
+    text-decoration: none;
+    text-shadow: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #2c9633 1px, #2c9633 2px, rgba(0, 0, 0, 0) 2px);
+}
+
 
 /*
 Thanks to  Jim Warwick

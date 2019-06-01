@@ -2,16 +2,18 @@
   * Based on Captain Anon https://codepen.io/anon/pen/byKVGJ
   */
 
-.section.bg-sunburst {
+.section.bg-nighttime {
     background-size: 100%;
-    background-image: linear-gradient(#F9D423, #FF4E50);
+    background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
     position: relative;
     z-index: 100;
 }
 
-.section.bg-sunburst::before {
+.section.bg-nighttime::before {
+    animation: opacityChange 10s infinite;
     border-radius: inherit;
-    background-image: linear-gradient(#FF4E50, #F9D423);
+    background-image: linear-gradient(147deg, #000000 0%, #166d3b 74%);
     content: '';
     display: block;
     height: 100%;
@@ -21,11 +23,6 @@
     left: 0;
     opacity: 0;
     z-index: -100;
-    transition: opacity 2.75s ease-in-out;
-}
-
-.section.bg-sunburst::before {
-    animation: opacityChange 10s;
 }
 
 @keyframes opacityChange {
