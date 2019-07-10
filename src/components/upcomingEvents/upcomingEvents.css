@@ -1,0 +1,29 @@
+.events-holder {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.event {
+    display: block;
+    width: 450px;
+    height: 320px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    /*color:*/
+}
+
+.event.event-upcoming {
+
+}
+
+.event.event-past {
+    opacity: 0.6;
+}
+
+.event h3 {
+    margin-top: 0;
+    font-size: 15px;
+}
