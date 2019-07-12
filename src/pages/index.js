@@ -1,21 +1,21 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Splash from "../components/splash/splash";
 import Section from "../components/section/section";
 import SEO from "../components/seo/seo";
-import Splash from "../components/splash/splash";
 import UpcomingEvents from "../components/upcomingEvents/upcomingEvents";
 
-// const IndexPage = ({ data }) => console.log(data.meetupGroup.events[0]) || (
 const IndexPage = ({ data }) => (
-  <div className="wrapper y-scroll-snap">
-    <SEO title="Home"/>
-    <Splash/>
-    {data.allMarkdownRemark.edges.map(({ node }) => (
-      <Section node={node} key={node.id}/>
-    ))}
-    <UpcomingEvents events={data.meetupGroup.events}/>
-
-  </div>
+  <>
+    <div className="wrapper y-scroll-snap">
+      <SEO title="Home"/>
+      <Splash/>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <Section node={node} key={node.id}/>
+      ))}
+      <UpcomingEvents events={data.meetupGroup.events}/>
+    </div>
+  </>
 );
 
 export default IndexPage;
@@ -46,8 +46,7 @@ export const query = graphql`
       duration
       rsvp_limit
       status
-      local_date
-      local_time
+      time
       waitlist_count
       yes_rsvp_count
       featured_photo {
@@ -79,5 +78,4 @@ export const query = graphql`
     }
   }
 }
-
 `;

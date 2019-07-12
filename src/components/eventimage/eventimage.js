@@ -1,11 +1,24 @@
 import React from "react";
 
-const Eventimage = (image) => {
+const Eventimage = (image, name) => {
+  let link = "http://placekitten.com/600/300";
+
   if (image.image != null) {
-    let im = image.image;
-    return <img style={{maxwidth: '50%'}} src={image.image.highres_link} alt=""/>;
+    link = image.image.highres_link;
   }
-  return <> </>
+
+  return <img
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      borderRadius: 10,
+    }}
+    src={link}
+    alt={name}
+  />;
+
+
 };
 
 export default Eventimage;

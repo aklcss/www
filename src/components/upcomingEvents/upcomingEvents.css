@@ -1,24 +1,9 @@
-.events-holder {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.section.events {
+    text-align: left;
 }
-
-.event {
-    display: block;
-    width: 450px;
-    height: 320px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 12px;
-    /*color:*/
+.section.events .section-header{
+    text-align: center;
 }
-
-.event.event-upcoming {
-
-}
-
 .event.event-past {
     opacity: 0.6;
 }
