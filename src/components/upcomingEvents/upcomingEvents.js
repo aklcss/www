@@ -10,6 +10,7 @@ import GridListTileBar from "@material-ui/core/GridListTileBar";
 import IconButton from "@material-ui/core/IconButton";
 import Container from "@material-ui/core/Container";
 import InfoIcon from "@material-ui/icons/Info";
+import Emoji from "../emoji/emoji";
 
 const useStyles = makeStyles(theme => ({
   gridListTile: {
@@ -34,7 +35,7 @@ const UpcomingEvents = (props) => {
   return (
     <div className="section events">
       <Container maxWidth="md">
-        <h1 className={"section-header"}>Upcoming and Past meetups</h1>
+        <h1 className={"section-header"}><Emoji symbol={"🗓"} /> Upcoming and Past meetups</h1>
         <div>
           <GridList cols={3} spacing={10}>
             {props.events.map((event, index) => (
