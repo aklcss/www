@@ -1,7 +1,7 @@
 import React from "react";
 
 const Eventimage = (image, name) => {
-  let link = "http://placekitten.com/600/300";
+  let link = "https://placekitten.com/600/300";
 
   if (image.image != null) {
     link = image.image.highres_link;
