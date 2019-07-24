@@ -5,6 +5,14 @@ module.exports = {
         author: `Nathan SD`,
     },
     plugins: [
+        {
+            resolve: `gatsby-plugin-material-ui`,
+            options: {
+                stylesProvider: {
+                    injectFirst: true,
+                },
+            },
+        },
         `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
@@ -44,7 +52,28 @@ module.exports = {
                     },
                 ],
             },
-        }
+        },
+        {
+            resolve: `gatsby-source-meetup`,
+            options: {
+                // Learn about environment variables: https://gatsby.app/env-vars
+                // Your Meetup.com API key can be retrieved here: https://secure.meetup.com/fr-FR/meetup_api/key/
+                // key: process.env.MEETUP_API_KEY,
+                key: `66401d62251493415a4d116ae7e7e`,
+                // key: `qo29l0b68chgg3ps404eoelqpr`,
+                // Mandatory: the URL name of a Meetup Group.
+                // See the URL of the group page, e.g. https://www.meetup.com/fr-FR/jamstack-paris
+                groupUrlName: "auckland-css",
+                // Optional parameters for retrieving Events, see full documentation at
+                // https://www.meetup.com/meetup_api/docs/:urlname/events/?uri=%2Fmeetup_api%2Fdocs%2F%3Aurlname%2Fevents%2F#list
+                status: "upcoming,past",
+                desc: "true",
+                page: 10,
+                sign: "true",
+                photo_host: "public",
+                fields: "featured_photo"
+            },
+        },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,

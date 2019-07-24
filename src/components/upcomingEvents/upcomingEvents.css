@@ -1,0 +1,14 @@
+.section.events {
+    text-align: left;
+}
+.section.events .section-header{
+    text-align: center;
+}
+.event.event-past {
+    opacity: 0.6;
+}
+
+.event h3 {
+    margin-top: 0;
+    font-size: 15px;
+}
