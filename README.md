@@ -19,7 +19,7 @@ But we aren't just limited to that. If you want to talk about your career journe
 
 ## Connect
 
-Join the conversation on [Slack](https://join.slack.com/t/aucklandcss/shared_invite/enQtNTI5MTMzODE5NDkxLTM3MzRmNGYyYzQ3ZTE1OTZjZTc5YjA5ZDIwM2YxYmRkYzRlYjM0ZWNjYzRlZTRlY2E0YWIyZmVhMzliMTM2YWY) where we share links and chat about all things in CSS and in-between.
+Join the conversation on [Slack](http://auklandcss.herokuapp.com/) where we share links and chat about all things in CSS and in-between.
 
 [Meetup.com](https://www.meetup.com/auckland-css/) is our portal to all things event related. You can find a history of our previous talks with photos and descriptions.
 
